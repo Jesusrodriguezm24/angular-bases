@@ -11,6 +11,7 @@ export class AddCharacterComponent {
   public onNewCharacter: EventEmitter<Character> = new EventEmitter();
 
   public character: Character = {
+    
     name: '',
     power: 0,
   };
